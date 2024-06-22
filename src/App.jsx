@@ -9,15 +9,15 @@ import LocalStoreGet from "./LocalStore/LocalStoreGet";
 import LocalStoreSave from "./LocalStore/LocalStoreSave";
 import { useEffect } from "react";
 
-import { Beginning } from "./components/Main/screen/Beginning";
-import { Logs } from "./components/Main/screen/Logs";
-import { Achievements } from "./components/Main/screen/Achievements";
-import { Creations } from "./components/Main/screen/Creations";
-import { Creation } from "./components/Main/screen/Creation";
-import { Games } from "./components/Main/screen/Games";
+import { Beginning } from "./components/Main/screen/Beginning/index";
+import { Logs } from "./components/Main/screen/Logs/index";
+import { Achievements } from "./components/Main/screen/Achievements/index";
+import { Creations } from "./components/Main/screen/Creations/index";
+import { Creation } from "./components/Main/screen/Creation/index";
+import { Games } from "./components/Main/screen/Games/index";
 import { Snake } from "./Games/Snake";
-import { JapaneseSimulator } from "./Games/JapaneseSimulator";
-import { Avatar } from "./components/Main/screen/Avatar";
+import { JapaneseSimulator } from "./Games/JapaneseSimulator/index";
+import { Avatar } from "./components/Main/screen/Avatar/index";
 
 import { useHotkeys } from "react-hotkeys-hook";
 import { useDispatch, useSelector } from "react-redux";
